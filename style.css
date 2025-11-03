@@ -3,6 +3,11 @@ body {
     color: #fff;
     font-family: 'Segoe UI', sans-serif;
     padding: 20px;
+    height: 90vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 
 input,
@@ -15,29 +20,36 @@ button {
 }
 
 #wordInput {
-    width: 100%;
+    width: 90%;
+    height: 50px;
     background: #333;
     color: #fff;
+    font-size: 18px;
 }
 
 #voiceBtn {
     background: #ff6600;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 #definitionBox {
     margin-top: 20px;
+    width: 100%;
 }
 
 .chat-bubble {
-    background: #333;
+    background: rgb(245, 244, 242);
     padding: 12px;
     border-radius: 12px;
-    max-width: 80%;
+    border-style: ridge;
+    max-width: 90%;
     margin-bottom: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 6px rgba(202, 225, 25, 0.3);
     animation: fadeIn 0.4s ease-in-out;
+    font-size: 20px;
+    color: black;
 }
 
 @keyframes fadeIn {
@@ -54,6 +66,7 @@ button {
 
 #suggestions {
     margin-top: 10px;
+    width: 93%;
 }
 
 .suggestion {
@@ -62,4 +75,29 @@ button {
     margin: 4px 0;
     border-radius: 6px;
     cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: midnightblue;
+    background-color: white;
+    margin-bottom: 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 3rem;
+    color: #ff6600;
+    padding-top: 0%;
 }
